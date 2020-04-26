@@ -5,7 +5,7 @@
     }
 
     body {
-        background-image:   linear-gradient(120deg, white, dodgerblue);
+        background-image:   linear-gradient(120deg, cyan, dodgerblue);
         color: white;
         font-family: 'karma';
         min-height: 100vh;
@@ -39,7 +39,7 @@
     }
 
     form button:hover {
-        background: white;
+        background: cyan;
         color: dodgerblue;
     }
 
@@ -62,7 +62,7 @@
         display: flex;
         justify-content:  space-between;
         align-items: center;
-        transition: all 0.5 ease;
+        transition: all 0.5s ease;
     }
 
     .todo li {
@@ -71,7 +71,7 @@
 
     .trash-btn, 
     .complete-btn {
-        background:  red;
+        background: #ff00009e;
         color: white;
         border: none;
         padding: 1rem;
@@ -80,7 +80,7 @@
     }
 
     .complete-btn {
-        background: green;
+        background: #008000ad;
     }
 
     .todo-item {
@@ -135,6 +135,6 @@
      }
 
      .select:hover::after {
-         background-color:  blue;
+         background-color:  cyan;
          color: dodgerblue;
      }
